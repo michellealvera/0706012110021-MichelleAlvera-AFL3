@@ -14,6 +14,7 @@
 		04B1533429E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1533329E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3Tests.swift */; };
 		04B1533E29E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1533D29E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3UITests.swift */; };
 		04B1534029E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1533F29E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3UITestsLaunchTests.swift */; };
+		04B1534D29E4F5530067C435 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1534C29E4F5530067C435 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		04B1533929E4ECFC0067C435 /* 0706012110021-MichelleAlvera-AFL3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0706012110021-MichelleAlvera-AFL3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B1533D29E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110021_MichelleAlvera_AFL3UITests.swift; sourceTree = "<group>"; };
 		04B1533F29E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110021_MichelleAlvera_AFL3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04B1534C29E4F5530067C435 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				04B1532229E4ECFA0067C435 /* _706012110021_MichelleAlvera_AFL3App.swift */,
 				04B1532429E4ECFA0067C435 /* ContentView.swift */,
 				04B1532629E4ECFC0067C435 /* Assets.xcassets */,
+				04B1534C29E4F5530067C435 /* CircleImage.swift */,
 				04B1532829E4ECFC0067C435 /* Preview Content */,
 			);
 			path = "0706012110021-MichelleAlvera-AFL3";
@@ -259,6 +262,7 @@
 			files = (
 				04B1532529E4ECFA0067C435 /* ContentView.swift in Sources */,
 				04B1532329E4ECFA0067C435 /* _706012110021_MichelleAlvera_AFL3App.swift in Sources */,
+				04B1534D29E4F5530067C435 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
