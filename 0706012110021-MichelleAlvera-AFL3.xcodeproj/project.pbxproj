@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		0482BD1029E8FE920083F7D6 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD0F29E8FE920083F7D6 /* FavoriteButton.swift */; };
 		0482BD1129E8FE920083F7D6 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD0F29E8FE920083F7D6 /* FavoriteButton.swift */; };
+		0482BD1829E9017D0083F7D6 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD1729E9017D0083F7D6 /* HexagonParameters.swift */; };
+		0482BD1929E9017D0083F7D6 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD1729E9017D0083F7D6 /* HexagonParameters.swift */; };
+		0482BD1B29E901A30083F7D6 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD1A29E901A30083F7D6 /* BadgeBackground.swift */; };
+		0482BD1C29E901A30083F7D6 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD1A29E901A30083F7D6 /* BadgeBackground.swift */; };
+		0482BD1E29E9024B0083F7D6 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD1D29E9024B0083F7D6 /* BadgeSymbol.swift */; };
+		0482BD1F29E9024B0083F7D6 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD1D29E9024B0083F7D6 /* BadgeSymbol.swift */; };
+		0482BD2129E902830083F7D6 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD2029E902830083F7D6 /* RotatedBadgeSymbol.swift */; };
+		0482BD2229E902830083F7D6 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD2029E902830083F7D6 /* RotatedBadgeSymbol.swift */; };
+		0482BD2429E902B40083F7D6 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD2329E902B40083F7D6 /* Badge.swift */; };
+		0482BD2529E902B40083F7D6 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482BD2329E902B40083F7D6 /* Badge.swift */; };
 		04B1532329E4ECFA0067C435 /* _706012110021_MichelleAlvera_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1532229E4ECFA0067C435 /* _706012110021_MichelleAlvera_AFL3App.swift */; };
 		04B1532529E4ECFA0067C435 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1532429E4ECFA0067C435 /* ContentView.swift */; };
 		04B1532729E4ECFC0067C435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B1532629E4ECFC0067C435 /* Assets.xcassets */; };
@@ -51,6 +61,11 @@
 
 /* Begin PBXFileReference section */
 		0482BD0F29E8FE920083F7D6 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		0482BD1729E9017D0083F7D6 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		0482BD1A29E901A30083F7D6 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		0482BD1D29E9024B0083F7D6 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		0482BD2029E902830083F7D6 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		0482BD2329E902B40083F7D6 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		04B1531F29E4ECFA0067C435 /* 0706012110021-MichelleAlvera-AFL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110021-MichelleAlvera-AFL3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B1532229E4ECFA0067C435 /* _706012110021_MichelleAlvera_AFL3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110021_MichelleAlvera_AFL3App.swift; sourceTree = "<group>"; };
 		04B1532429E4ECFA0067C435 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +129,18 @@
 				04E8ED1C29E8ED5A0047442B /* LandmarkDetail.swift */,
 			);
 			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		0482BD1629E901490083F7D6 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				0482BD1729E9017D0083F7D6 /* HexagonParameters.swift */,
+				0482BD1A29E901A30083F7D6 /* BadgeBackground.swift */,
+				0482BD1D29E9024B0083F7D6 /* BadgeSymbol.swift */,
+				0482BD2029E902830083F7D6 /* RotatedBadgeSymbol.swift */,
+				0482BD2329E902B40083F7D6 /* Badge.swift */,
+			);
+			path = Badges;
 			sourceTree = "<group>";
 		};
 		04B1531629E4ECFA0067C435 = {
@@ -195,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				04B1532429E4ECFA0067C435 /* ContentView.swift */,
+				0482BD1629E901490083F7D6 /* Badges */,
 				0482BD0C29E8FE380083F7D6 /* Landmarks */,
 				0482BD0B29E8FE2D0083F7D6 /* Helpers */,
 			);
@@ -334,11 +362,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B1532529E4ECFA0067C435 /* ContentView.swift in Sources */,
+				0482BD2429E902B40083F7D6 /* Badge.swift in Sources */,
 				04B1534F29E4F7410067C435 /* MapView.swift in Sources */,
 				04E8ED1D29E8ED5A0047442B /* LandmarkDetail.swift in Sources */,
 				0482BD1029E8FE920083F7D6 /* FavoriteButton.swift in Sources */,
+				0482BD1829E9017D0083F7D6 /* HexagonParameters.swift in Sources */,
+				0482BD2129E902830083F7D6 /* RotatedBadgeSymbol.swift in Sources */,
+				0482BD1E29E9024B0083F7D6 /* BadgeSymbol.swift in Sources */,
 				04B1532329E4ECFA0067C435 /* _706012110021_MichelleAlvera_AFL3App.swift in Sources */,
 				04E8ED1A29E8EC980047442B /* LandmarkList.swift in Sources */,
+				0482BD1B29E901A30083F7D6 /* BadgeBackground.swift in Sources */,
 				04B1534D29E4F5530067C435 /* CircleImage.swift in Sources */,
 				04E8ED0F29E8E8220047442B /* Landmark.swift in Sources */,
 				04E8ED1729E8EAB50047442B /* LandmarkRow.swift in Sources */,
@@ -361,11 +394,16 @@
 				04B1533E29E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3UITests.swift in Sources */,
 				04E8ED1E29E8ED5A0047442B /* LandmarkDetail.swift in Sources */,
 				04E8ED1B29E8EC980047442B /* LandmarkList.swift in Sources */,
+				0482BD1C29E901A30083F7D6 /* BadgeBackground.swift in Sources */,
+				0482BD1929E9017D0083F7D6 /* HexagonParameters.swift in Sources */,
+				0482BD1F29E9024B0083F7D6 /* BadgeSymbol.swift in Sources */,
 				0482BD1129E8FE920083F7D6 /* FavoriteButton.swift in Sources */,
 				04E8ED1329E8E9070047442B /* ModelData.swift in Sources */,
 				04B1534029E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3UITestsLaunchTests.swift in Sources */,
 				04E8ED1829E8EAB50047442B /* LandmarkRow.swift in Sources */,
 				04E8ED1029E8E8220047442B /* Landmark.swift in Sources */,
+				0482BD2529E902B40083F7D6 /* Badge.swift in Sources */,
+				0482BD2229E902830083F7D6 /* RotatedBadgeSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
