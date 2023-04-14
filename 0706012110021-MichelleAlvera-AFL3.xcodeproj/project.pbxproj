@@ -22,6 +22,8 @@
 		04E8ED1029E8E8220047442B /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ED0E29E8E8220047442B /* Landmark.swift */; };
 		04E8ED1229E8E9070047442B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ED1129E8E9070047442B /* ModelData.swift */; };
 		04E8ED1329E8E9070047442B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ED1129E8E9070047442B /* ModelData.swift */; };
+		04E8ED1729E8EAB50047442B /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ED1629E8EAB50047442B /* LandmarkRow.swift */; };
+		04E8ED1829E8EAB50047442B /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ED1629E8EAB50047442B /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,7 @@
 		04E8ED0A29E8E7B30047442B /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		04E8ED0E29E8E8220047442B /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		04E8ED1129E8E9070047442B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		04E8ED1629E8EAB50047442B /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,7 @@
 				04B1534C29E4F5530067C435 /* CircleImage.swift */,
 				04B1532429E4ECFA0067C435 /* ContentView.swift */,
 				04B1534E29E4F7410067C435 /* MapView.swift */,
+				04E8ED1629E8EAB50047442B /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,6 +310,7 @@
 				04B1532329E4ECFA0067C435 /* _706012110021_MichelleAlvera_AFL3App.swift in Sources */,
 				04B1534D29E4F5530067C435 /* CircleImage.swift in Sources */,
 				04E8ED0F29E8E8220047442B /* Landmark.swift in Sources */,
+				04E8ED1729E8EAB50047442B /* LandmarkRow.swift in Sources */,
 				04E8ED1229E8E9070047442B /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +330,7 @@
 				04B1533E29E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3UITests.swift in Sources */,
 				04E8ED1329E8E9070047442B /* ModelData.swift in Sources */,
 				04B1534029E4ECFC0067C435 /* _706012110021_MichelleAlvera_AFL3UITestsLaunchTests.swift in Sources */,
+				04E8ED1829E8EAB50047442B /* LandmarkRow.swift in Sources */,
 				04E8ED1029E8E8220047442B /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
