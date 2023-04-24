@@ -41,7 +41,7 @@ struct LandmarkDetail: View {
                 .foregroundColor(.secondary)
 
                 Divider()
-
+                //command-click a component to show editing/action popover, choose Show SwiftUI Inspector to change attributes like color, font, etc
                 Text("About \(landmark.name)")
                     .font(.title2)
                 Text(landmark.description)

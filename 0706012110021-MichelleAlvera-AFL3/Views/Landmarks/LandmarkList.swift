@@ -18,18 +18,30 @@ struct LandmarkList: View {
     }
 
     var body: some View {
-        NavigationView {
-            List {
-                Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites only")
-                }
-
-                ForEach(filteredLandmarks) { landmark in
-                    NavigationLink {
-                        LandmarkDetail(landmark: landmark)
-                    } label: {
-                        LandmarkRow(landmark: landmark)
-                    }
+        // deprecated
+//                NavigationView {
+//                    List {
+//                        Toggle(isOn: $showFavoritesOnly) {
+//                            Text("Favorites only")
+//                        }
+//
+//                        ForEach(filteredLandmarks) { landmark in
+//                            NavigationLink {
+//                                LandmarkDetail(landmark: landmark)
+//                            } label: {
+//                                LandmarkRow(landmark: landmark)
+//                            }
+//                        }
+//                    }
+//                    .navigationTitle("Landmarks")
+//                }
+        //Stack untuk satu column, splitview untuk bbrp column
+        NavigationStack{
+            List(filteredLandmarks){ landmark in
+                NavigationLink{
+                    LandmarkDetail(landmark: landmark)
+                } label: {
+                    LandmarkRow(landmark: landmark)
                 }
             }
             .navigationTitle("Landmarks")
